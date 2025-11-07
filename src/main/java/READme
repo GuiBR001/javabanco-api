@@ -1,0 +1,8 @@
+para rodar o programa voce deve estar com o oracle developer aberto
+
+name = FIAP
+nome de usuario = RM561226
+Senha = 110505
+nome do host = oracle.fiap.com.br
+porta = 1521
+sid = ORCL
