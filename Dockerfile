@@ -5,7 +5,8 @@ COPY pom.xml .
 RUN mvn -q dependency:go-offline
 
 COPY src ./src
-RUN mvn -DskipTests package
+RUN mvn -DskipTests -Dquarkus.analytics.disabled=true package
+
 
 FROM eclipse-temurin:17-jre
 WORKDIR /app
